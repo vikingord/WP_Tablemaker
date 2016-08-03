@@ -1,0 +1,80 @@
+.tablemaker table.data {
+    border-collapse: collapse;
+}
+
+.tablemaker table.data td {
+    padding: 0;
+    border: 1px solid #aaa;
+}
+
+.tablemaker table.data td.removerow {
+    border: none;
+}
+
+.tablemaker table.data input[type="text"] {
+    border: none;
+    margin: 0;
+}
+
+.tablemaker table.data td.handle {
+    text-align: center;
+    background: #bbb;
+    font-size: 21px;
+    cursor: move;
+}
+
+.tablemaker div.addrow {
+    margin-top: 15px;
+}
+
+.tablemaker input.removerow {
+    background-color: red;
+    border: 1px solid red;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    opacity: .4;
+    -moz-opacity: .4;
+    -khtml-opacity: .4;
+    filter: alpha(opacity=40);
+    -ms-filter: "alpha(opacity=40)";
+    width: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: white;
+    display: none;
+}
+
+.tablemaker tr:hover input.removerow {
+    display: inline-block;
+}
+
+.tablemaker input.removerow:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.tablemaker .tables a {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.tablemaker a.delete {
+    color: red;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.tablemaker a.delete:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-filter: "alpha(opacity=100)";
+}
